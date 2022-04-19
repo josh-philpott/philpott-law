@@ -1,0 +1,23 @@
+{
+	debug
+	log {
+		format console
+	}
+}
+
+josh-philpott.com, :443, :80 {
+
+	root * /srv/philpott-law.com
+
+	log
+
+	tls {
+	       dns cloudflare A5SDmhV_NBSR0ttxXDaPkIXZJgD6fx9qVq0YjN4a
+	}
+
+
+	file_server
+
+	import LegacyRedirects
+
+}

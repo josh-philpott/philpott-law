@@ -1,0 +1,55 @@
+@CapitalizedPracticeAreas {
+  path_regexp static ^/Practice-Areas\/?$
+}
+redir @CapitalizedPracticeAreas /practice-areas/ permanent
+
+@CapitalizedFamilyLaw {
+  path_regexp static ^/Family-Law\/?$
+}
+redir @CapitalizedFamilyLaw /family-law/ permanent
+
+@CapitalizedCriminalDefense {
+  path_regexp static ^/Criminal-Defense\/?$
+}
+redir @CapitalizedCriminalDefense /criminal-defense/ permanent
+
+redir /Firm-Overview.shtml /firm-overview/ permanent
+redir /Attorney-Bios/Danny-Philpott.shtml /attorney-bios/danny-philpott/ permanent
+redir /Practice-Areas/index.shtml /practice-areas/ permanent
+redir /Family-Law/index.shtml /family-law/ permanent
+redir /Family-Law/Dissolution-of-Marriage-Divorce.shtml /family-law/dissolution-of-marriage-divorce/ permanent
+redir /Family-Law/Time-Sharing-Child-Support.shtml /family-law/time-sharing-child-support/ permanent
+redir /Family-Law/Modification-of-Court-Orders.shtml /family-law/modification-of-court-orders/ permanent
+redir /Criminal-Defense/index.shtml /criminal-defense/ permanent
+redir /Criminal-Defense/Criminal-Offenses.shtml /criminal-defense/criminal-offenses/ permanent
+redir /Criminal-Defense/Assault-Battery.html /criminal-defense/assault-battery/ permanent
+redir /Criminal-Defense/Drug-Crimes.html /criminal-defense/drug-crimes/ permanent
+redir /Criminal-Defense/dui-attorney-deland.html /criminal-defense/dui-attorney-deland/ permanent
+redir /Criminal-Defense/Theft-Fraud.html /criminal-defense/theft-fraud/ permanent
+redir /Criminal-Defense/Grand-Theft.html /criminal-defense/grand-theft/ permanent
+redir /Criminal-Defense/Petit-Theft.html /criminal-defense/petit-theft/ permanent
+redir /Criminal-Defense/Record-Seals-Expungements.shtml /criminal-defense/record-seals-expungements/ permanent
+redir /Criminal-Defense/Probation-Violations.shtml /criminal-defense/probation-violations/ permanent
+redir /Practice-Areas/General-Civil-Law.shtml /practice-areas/general-civil-law/ permanent
+redir /Resources.shtml /resources/ permanent
+redir /Contact.shtml /contact/ permanent
+redir /Disclaimer.shtml /disclaimer/ permanent
+redir /criminal-defense-attorney-deland.html /criminal-defense-attorney-deland/ permanent
+redir /criminal-defense-attorney-daytona-beach.html /criminal-defense-attorney-daytona-beach/ permanent
+redir /criminal-defense-attorney-orange-city.html /criminal-defense-attorney-orange-city/ permanent
+redir /dui-attorney-daytona-beach.html /dui-attorney-daytona-beach/ permanent
+redir /criminal-defense-attorney-deltona.html /criminal-defense-attorney-deltona/ permanent
+redir /criminal-defense-divorce-family-attorney-deltona.html /criminal-defense-divorce-family-attorney-deltona/ permanent
+redir /dui-criminal-defense-attorney-daytona-beach.html /dui-criminal-defense-attorney-daytona-beach/ permanent
+redir /criminal-defense-attorney-debary-fl.html /criminal-defense-attorney-debary-fl/ permanent
+redir /divorce-attorney-deland-fl.html /divorce-attorney-deland-fl/ permanent
+redir /divorce-attorney-deltona.html /divorce-attorney-deltona/ permanent
+redir /divorce-attorney-orange-city-fl.html /divorce-attorney-orange-city-fl/ permanent
+redir /divorce-attorney-deltona-fl.html /divorce-attorney-deltona-fl/ permanent
+redir /divorce-attorney-daytona-beach-fl.html /divorce-attorney-daytona-beach-fl/ permanent
+redir /divorce-lawyer-sanford.html /divorce-lawyer-sanford/ permanent
+redir /family-law-attorney-deland-fl.html /family-law-attorney-deland-fl/ permanent
+redir /family-law-lawyer-daytona-beach-fl.html /family-law-lawyer-daytona-beach-fl/ permanent
+redir /Site-Map.shtml /site-map/ permanent
+redir /dui-attorney-deland.html /dui-attorney-deland/ permanent
+redir /services/child-custody.html /services/child-custody/ permanent

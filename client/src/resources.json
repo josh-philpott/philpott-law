@@ -1,0 +1,123 @@
+{
+    "title": "Resources | Philpott Law | Deland, Daytona Beach, Florida",
+    "layout": "legacy.njk",
+    "header": "Resources - Philpott Law",
+    "metaKeywords": [
+        "law firm",
+        "law office",
+        "legal advice",
+        "lawyer",
+        "attorney",
+        "deland",
+        "daytona beach",
+        "florida"
+    ],
+    "metaDescription": "Need a solution to a legal problem? Schedule a no obligation consultation at Philpott Law in DeLand, Florida by calling 386-873-2884.",
+    "resources": [
+        {
+            "category": "Legal",
+            "items": [
+                {
+                    "url": "http://www.findlaw.com/",
+                    "text": "FindLaw"
+                },
+                {
+                    "url": "http://www.uscourts.gov/",
+                    "text": "U.S. Courts"
+                },
+                {
+                    "url": "https://legal.thomsonreuters.com/en",
+                    "text": "West"
+                },
+                {
+                    "url": "http://www.westlaw.com/",
+                    "text": "Westlaw"
+                }
+            ]
+        },
+        {
+            "category": "Government",
+            "items": [
+                {
+                    "url": "http://www.firstgov.gov/",
+                    "text": "FirstGov"
+                },
+                {
+                    "url": "http://www.loc.gov/",
+                    "text": "Library of Congress"
+                },
+                {
+                    "url": "http://www.house.gov/",
+                    "text": "U.S. House of Representatives"
+                },
+                {
+                    "url": "http://www.senate.gov/",
+                    "text": "U.S. Senate"
+                },
+                {
+                    "url": "http://www.whitehouse.gov/",
+                    "text": "White House"
+                }
+            ]
+        },
+        {
+            "category": "General",
+            "items": [
+                {
+                    "url": "http://maps.google.com/",
+                    "text": "Google Maps"
+                },
+                {
+                    "url": "http://www.nws.noaa.gov/",
+                    "text": "National Weather Service"
+                },
+                {
+                    "url": "http://maps.yahoo.com/",
+                    "text": "Yahoo! Maps"
+                },
+                {
+                    "url": "https://www.yellowpages.com/",
+                    "text": "YellowPages.com"
+                }
+            ]
+        },
+        {
+            "category": "News",
+            "items": [
+                {
+                    "url": "http://www.nytimes.com/",
+                    "text": "New York Times"
+                },
+                {
+                    "url": "http://www.newspapers.com/",
+                    "text": "Newspapers Online"
+                },
+                {
+                    "url": "http://www.usatoday.com/",
+                    "text": "USA Today"
+                },
+                {
+                    "url": "http://www.wsj.com/",
+                    "text": "Wall Street Journal"
+                }
+            ]
+        },
+        {
+            "category": "Search Engines",
+            "items": [
+                {
+                    "url": "http://www.google.com/",
+                    "text": "Google"
+                },
+                {
+                    "url": "http://search.yahoo.com/",
+                    "text": "Yahoo!"
+                },
+                {
+                    "url": "http://www.bing.com/",
+                    "text": "Bing"
+                }
+            ]
+        }
+    ]
+}

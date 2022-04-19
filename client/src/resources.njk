@@ -1,0 +1,8 @@
+{% for resource in resources %}
+<h2>{{resource.category}}</h2>
+<ul>
+	{% for item in resource.items %}
+	<li><a href="{{ item.url }}" target="_blank">{{ item.text }}</a></li>
+	{% endfor %}
+</ul>
+{% endfor %}
