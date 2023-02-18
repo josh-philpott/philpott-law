@@ -12,7 +12,7 @@ josh-philpott.com, :443, :80 {
 	log
 
 	tls {
-	       dns cloudflare A5SDmhV_NBSR0ttxXDaPkIXZJgD6fx9qVq0YjN4a
+	       dns cloudflare {env.CF_API_TOKEN}
 	}
 
 
