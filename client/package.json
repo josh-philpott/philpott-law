@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -rf _site/"
+    "clean": "rm -rf _site/",
+    "dev": "npx @11ty/eleventy --serve",
+    "prod": "MY_ENVIRONMENT=production npx @11ty/eleventy --serve",
+    "build:prod": "DEBUG=Eleventy* MY_ENVIRONMENT=production npx @11ty/eleventy --output _dist"
   },
   "keywords": [],
   "author": "",

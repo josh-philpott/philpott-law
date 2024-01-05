@@ -1,4 +1,13 @@
-export const getEmailBodyHtml = (greeting, name, city, state, contactString, email, phone, issue) => (`
+export const getEmailBodyHtml = (
+  greeting,
+  name,
+  city,
+  state,
+  contactString,
+  email,
+  phone,
+  issue
+) => `
 <h2>${greeting},</h2>
 
 <p>You got a new contact form submission!</p>
@@ -11,9 +20,18 @@ export const getEmailBodyHtml = (greeting, name, city, state, contactString, ema
 <b>Phone:</b> ${phone} <br/>
 
 <h2> They Said: </h2>
-<p><em>${issue}</em></p>`);
+<p><em>${issue}</em></p>`;
 
-export const getEmailBodyText = (greeting, name, city, state, contactString, email, phone, issue) => (`
+export const getEmailBodyText = (
+  greeting,
+  name,
+  city,
+  state,
+  contactString,
+  email,
+  phone,
+  issue
+) => `
 ${greeting}
 
 You got a new contact form submission!
@@ -26,4 +44,4 @@ Email: ${email}
 Phone: ${phone}
 
 They said:
-${issue}`);
+${issue}`;
