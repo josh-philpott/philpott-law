@@ -21,7 +21,7 @@ let greetings = [
   "Hey! I found this outside",
 ];
 
-function main(event, context) {
+export function main(event, context) {
   const {
     grecap,
     recipients,
