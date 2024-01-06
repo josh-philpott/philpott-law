@@ -30,7 +30,7 @@
 		}
 	</style>
 
-	<form method="post" action="{{ philpottLaw.apiBaseUrl }}/contact-submit" name="contact" id="form">
+	<form method="post" action="{{ philpottLaw.apiBaseUrl }}/cloud/contactSubmit" name="contact" id="form">
 		{% if philpottLaw.isDev %}
 			<input type="hidden" name="recipients" value="josh@philpott.io"/>
 		{% else %}
@@ -204,7 +204,8 @@
 <script type="text/javascript">
 	var onloadCallback = function () {
 		grecaptcha.render('captcha', {
-			'sitekey': '6Lc3220fAAAAAIlWiUqPXbMwAFNKK51wtwwPkrA5',
+			//'sitekey': '6Lc3220fAAAAAIlWiUqPXbMwAFNKK51wtwwPkrA5',
+			'sitekey': '6LcP5EcpAAAAAJW1Nsr1iKQ2LWe4kgX4FuZ8CFi8',
 			'callback': function (response) {
 				$('#grecap').val(response);
 			}
