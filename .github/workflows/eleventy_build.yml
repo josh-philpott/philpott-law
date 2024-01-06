@@ -11,6 +11,7 @@ jobs:
       - name: Build
         uses: josh-philpott/actions-eleventy@master
         with:
+          args: --pathPrefix=philpott-law
           directory: ./client
           install_dependencies: true
       - name: Deploy
