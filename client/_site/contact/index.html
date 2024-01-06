@@ -252,7 +252,7 @@
 		}
 	</style>
 
-	<form method="post" action="http://localhost:3000/contact-submit" name="contact" id="form">
+	<form method="post" action="http://localhost:3000/cloud/submitContact" name="contact" id="form">
 		
 			<input type="hidden" name="recipients" value="josh@philpott.io"/>
 		
@@ -402,6 +402,7 @@
 		101 N. Woodland Blvd., Suite 216<br>
 		DeLand, FL 32720<br>
 		By Appointment Only<br>
+		<strong>Mailing Address:</strong> PO Box 1594 Deland, FL 32723<br>
 		<strong>Phone:</strong> (386) 873-2884<br>
 		<strong>Fax:</strong> (386) 873-2886<br>
 		<div class="embed-responsive embed-responsive-16by9">
@@ -424,7 +425,8 @@
 <script type="text/javascript">
 	var onloadCallback = function () {
 		grecaptcha.render('captcha', {
-			'sitekey': '6Lc3220fAAAAAIlWiUqPXbMwAFNKK51wtwwPkrA5',
+			//'sitekey': '6Lc3220fAAAAAIlWiUqPXbMwAFNKK51wtwwPkrA5',
+			'sitekey': '6LcP5EcpAAAAAJW1Nsr1iKQ2LWe4kgX4FuZ8CFi8',
 			'callback': function (response) {
 				$('#grecap').val(response);
 			}
@@ -487,8 +489,9 @@
                         </div>
                         <div class="col-xs-12 col-sm-5 text-left">
                             <strong>DeLand Office</strong><br> 101 N. Woodland Blvd., Suite 216<br> DeLand, FL 32720<br>By Appointment Only<br>
-                        Phone:
-                        386-873-2884<br> Fax: 386-873-2886
+                            <strong>Mailing Address:</strong> PO Box 1594 Deland, FL 32723<br>
+                            <strong>Phone:</strong> 386-873-2884<br>
+                            <strong>Fax:</strong> 386-873-2886
                     </div>
                         <div class="col-xs-12 col-sm-7 text-justify">
                         Philpott Law is located in DeLand, Florida, and serves clients in Central Florida, including
