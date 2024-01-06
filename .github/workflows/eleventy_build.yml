@@ -12,6 +12,7 @@ jobs:
         uses: josh-philpott/actions-eleventy@master
         with:
           directory: ./client
+          install_dependencies: true
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
