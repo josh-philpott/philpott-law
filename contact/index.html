@@ -241,7 +241,7 @@
 		}
 	</style>
 
-	<form method="post" action="https://api.philpott-law.com/contact-submit" name="contact" id="form">
+	<form method="post" action="https://faas-nyc1-2ef2e6cc.doserverless.co/api/v1/web/fn-51c2f016-7a45-4af9-907f-235f5b6e0175/cloud/contactSubmit" name="contact" id="form">
 		
 			<input type="hidden" name="recipients" value="danny@philpott-law.com,josh@philpott.io">
 		
@@ -411,7 +411,8 @@
 <script type="text/javascript">
 	var onloadCallback = function () {
 		grecaptcha.render('captcha', {
-			'sitekey': '6Lc3220fAAAAAIlWiUqPXbMwAFNKK51wtwwPkrA5',
+			//'sitekey': '6Lc3220fAAAAAIlWiUqPXbMwAFNKK51wtwwPkrA5',
+			'sitekey': '6LcP5EcpAAAAAJW1Nsr1iKQ2LWe4kgX4FuZ8CFi8',
 			'callback': function (response) {
 				$('#grecap').val(response);
 			}
