@@ -30,7 +30,7 @@
 		}
 	</style>
 
-	<form method="post" action="{{ philpottLaw.apiBaseUrl }}/cloud/contactSubmit" name="contact" id="form">
+	<form method="post" action="{{ philpottLaw.apiBaseUrl }}/cloud/submitContact" name="contact" id="form">
 		{% if philpottLaw.isDev %}
 			<input type="hidden" name="recipients" value="josh@philpott.io"/>
 		{% else %}
