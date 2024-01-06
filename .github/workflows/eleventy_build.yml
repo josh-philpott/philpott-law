@@ -10,8 +10,7 @@ jobs:
       - uses: actions/checkout@main
       - name: Build
         uses: TartanLlama/actions-eleventy@master
-        with:
-          args: --input client
+        working-directory: ./client
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
