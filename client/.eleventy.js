@@ -10,7 +10,6 @@ module.exports = function (eleventyConfig, options = {}) {
     dir: {
       input: "src",
       data: "_data",
-    },
-    pathPrefix:"/philpott-law/"
+    }
   };
 };
